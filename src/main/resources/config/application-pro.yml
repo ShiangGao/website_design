@@ -1,0 +1,10 @@
+server:
+  port: 80
+  servlet:
+    context-path: /demo
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
